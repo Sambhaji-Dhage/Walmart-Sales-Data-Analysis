@@ -68,7 +68,10 @@ This dataset contains sales transactions from a three different branches of Walm
 
 1. How many unique cities does the data have?
 2. In which city is each branch?
-
+3. Distribution of customer types across different branches?
+4. How do sales trends by time of day?
+5. How do sales trends by day of the week?
+   
 ### Product
 
 1. How many unique product lines does the data have?
@@ -78,10 +81,12 @@ This dataset contains sales transactions from a three different branches of Walm
 5. What month had the largest COGS?
 6. What product line had the largest revenue?
 7. What is the city with the largest revenue?
-8. What product line had the largest VAT?
+8. What product line had the largest tax/ VAT?
 9. Which branch sold more products than average product sold?              
-10.What is the most common product line by gender?                     
-11.What is the average rating of each product line?
+10. What is the most common product line by gender?                     
+11. What is the average rating of each product line?
+12. Fetch each product line and add a column to those product line showing "Good", "Bad".
+    Good if its greater than average sales
 
 ### Sales
 
@@ -101,4 +106,5 @@ This dataset contains sales transactions from a three different branches of Walm
 7. Which time of the day do customers give most ratings?
 8. Which time of the day do customers give most ratings per branch?
 9. Which day fo the week has the best avg ratings?
-10. Which day of the week has the best average ratings per branch?
+10. Why is that the case, how much revenue was made on these days?
+11. Which day of the week has the best average ratings per branch?
